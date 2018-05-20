@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<counter-example type="0" id="1" desc="MSAT BMC counterexample" >
+  <node>
+    <state id="1">
+      <value variable="minlength">38</value>
+      <value variable="state">applyForTrip</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">0</value>
+      <value variable="applyForTripCount">0</value>
+      <value variable="approveApplicationCount">0</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">39</value>
+      <value variable="speed">40</value>
+      <value variable="length">1</value>
+    </state>
+  </node>
+  <node>
+    <state id="2">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">0</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">0</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">2</value>
+    </state>
+  </node>
+  <node>
+    <state id="3">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">0</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">0</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">3</value>
+    </state>
+  </node>
+  <node>
+    <state id="4">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">0</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">0</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">another</value>
+      <value variable="price">0</value>
+      <value variable="speed">0</value>
+      <value variable="length">4</value>
+    </state>
+  </node>
+  <node>
+    <state id="5">
+      <value variable="minlength">38</value>
+      <value variable="state">approveApplication</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">0</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">0</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">5</value>
+    </state>
+  </node>
+  <node>
+    <state id="6">
+      <value variable="minlength">38</value>
+      <value variable="state">bookTransport</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">0</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">6</value>
+    </state>
+  </node>
+  <node>
+    <state id="7">
+      <value variable="minlength">38</value>
+      <value variable="state">bookTransport</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">1</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">7</value>
+    </state>
+  </node>
+  <node>
+    <state id="8">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">8</value>
+    </state>
+  </node>
+  <node>
+    <state id="9">
+      <value variable="minlength">38</value>
+      <value variable="state">bookAccomodation</value>
+      <value variable="bookAccomodationCount">0</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">9</value>
+    </state>
+  </node>
+  <node>
+    <state id="10">
+      <value variable="minlength">38</value>
+      <value variable="state">useTransport</value>
+      <value variable="bookAccomodationCount">1</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">10</value>
+    </state>
+  </node>
+  <node>
+    <state id="11">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">1</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">11</value>
+    </state>
+  </node>
+  <node>
+    <state id="12">
+      <value variable="minlength">38</value>
+      <value variable="state">bookAccomodation</value>
+      <value variable="bookAccomodationCount">1</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">12</value>
+    </state>
+  </node>
+  <node>
+    <state id="13">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">13</value>
+    </state>
+  </node>
+  <node>
+    <state id="14">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">14</value>
+    </state>
+  </node>
+  <node>
+    <state id="15">
+      <value variable="minlength">38</value>
+      <value variable="state">bookTransport</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">2</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">15</value>
+    </state>
+  </node>
+  <node>
+    <state id="16">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">80</value>
+      <value variable="speed">0</value>
+      <value variable="length">16</value>
+    </state>
+  </node>
+  <node>
+    <state id="17">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">50</value>
+      <value variable="length">17</value>
+    </state>
+  </node>
+  <node>
+    <state id="18">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">18</value>
+    </state>
+  </node>
+  <node>
+    <state id="19">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">19</value>
+    </state>
+  </node>
+  <node>
+    <state id="20">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">20</value>
+    </state>
+  </node>
+  <node>
+    <state id="21">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">21</value>
+    </state>
+  </node>
+  <node>
+    <state id="22">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">22</value>
+    </state>
+  </node>
+  <node>
+    <state id="23">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">80</value>
+      <value variable="speed">0</value>
+      <value variable="length">23</value>
+    </state>
+  </node>
+  <node>
+    <state id="24">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">24</value>
+    </state>
+  </node>
+  <node>
+    <state id="25">
+      <value variable="minlength">38</value>
+      <value variable="state">useTransport</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">25</value>
+    </state>
+  </node>
+  <node>
+    <state id="26">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">50</value>
+      <value variable="speed">0</value>
+      <value variable="length">26</value>
+    </state>
+  </node>
+  <node>
+    <state id="27">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">27</value>
+    </state>
+  </node>
+  <node>
+    <state id="28">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">28</value>
+    </state>
+  </node>
+  <node>
+    <state id="29">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">25</value>
+      <value variable="speed">0</value>
+      <value variable="length">29</value>
+    </state>
+  </node>
+  <node>
+    <state id="30">
+      <value variable="minlength">38</value>
+      <value variable="state">useTransport</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">30</value>
+    </state>
+  </node>
+  <node>
+    <state id="31">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">31</value>
+    </state>
+  </node>
+  <node>
+    <state id="32">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">32</value>
+    </state>
+  </node>
+  <node>
+    <state id="33">
+      <value variable="minlength">38</value>
+      <value variable="state">collectTickets</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">33</value>
+    </state>
+  </node>
+  <node>
+    <state id="34">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">34</value>
+    </state>
+  </node>
+  <node>
+    <state id="35">
+      <value variable="minlength">38</value>
+      <value variable="state">useTransport</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">35</value>
+    </state>
+  </node>
+  <node>
+    <state id="36">
+      <value variable="minlength">38</value>
+      <value variable="state">doSomething</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">75</value>
+      <value variable="speed">0</value>
+      <value variable="length">36</value>
+    </state>
+  </node>
+  <node>
+    <state id="37">
+      <value variable="minlength">38</value>
+      <value variable="state">archiveDocuments</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">0</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">0</value>
+      <value variable="speed">0</value>
+      <value variable="length">37</value>
+    </state>
+  </node>
+  <node>
+    <state id="38">
+      <value variable="minlength">38</value>
+      <value variable="state">_tail</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">1</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">80</value>
+      <value variable="speed">0</value>
+      <value variable="length">38</value>
+    </state>
+  </node>
+  <node>
+    <state id="39">
+      <value variable="minlength">38</value>
+      <value variable="state">_tail</value>
+      <value variable="bookAccomodationCount">2</value>
+      <value variable="bookTransportCount">3</value>
+      <value variable="applyForTripCount">1</value>
+      <value variable="approveApplicationCount">1</value>
+      <value variable="archiveDocumentsCount">1</value>
+      <value variable="transportType">car</value>
+      <value variable="something">one</value>
+      <value variable="price">80</value>
+      <value variable="speed">0</value>
+      <value variable="length">38</value>
+    </state>
+  </node>
+  <loops> 38 </loops>
+</counter-example>
